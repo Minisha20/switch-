@@ -1,0 +1,22 @@
+public class Switchcase
+{
+ public static void main(String[] args)
+ {
+  int choice;
+  System.out.println("Pick one: 1.Pen\t2.Pencil\t3.eraser\t");
+  Scanner s =new Scanner(system.in);
+  choice=s.nextInt();
+  switch(choice)
+  {
+   case 1:System.out.println("You picked pen");
+   break;
+   case 2:System.out.println("You picked pencil");
+   break;
+   case 3:System.out.println("You picked eraser");
+   break;
+   default:System.out.println("Invalid choice");
+   break;
+  }
+ }
+}
+  
